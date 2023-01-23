@@ -3,8 +3,25 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  padding: 13rem;
   min-height: 100vh;
+}
+
+.main h1 {
+  font-size: 74px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  color: rgb(45, 44, 46);
+}
+
+.landingImage {
+  height: 500px;
+  z-index: 0;
+}
+
+.landingText {
+  padding-top: 0%;
+  z-index: 1;
 }
 
 .description {
