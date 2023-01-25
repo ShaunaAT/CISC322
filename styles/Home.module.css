@@ -3,15 +3,27 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 13rem;
+  padding: 5rem;
   min-height: 100vh;
+}
+
+.card {
+  width: 18rem;
 }
 
 .main h1 {
   font-size: 74px;
   font-family: 'Trebuchet MS', sans-serif;
   font-weight: lighter;
-  color: rgb(45, 44, 46);
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 3px 3px #3635351a;
+}
+
+.main h2 {
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+  color: #ffffff;
 }
 
 .landingImage {
@@ -22,6 +34,11 @@
 .landingText {
   padding-top: 0%;
   z-index: 1;
+}
+
+.container {
+  position: relative;
+  color: rgb(51, 50, 50);
 }
 
 .description {
