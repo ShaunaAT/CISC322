@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import bitcoin from '../public/bitcoin.avif'
+import blockchain from '../public/blockchain.jpg'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,7 @@ export default function Home() {
         </h1>
         <div>
           <Image
-            src={bitcoin}
+            src={blockchain}
             alt='Bitcoin'
             fill
             className={styles.landingImage}
