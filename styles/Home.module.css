@@ -3,12 +3,20 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 5rem;
   min-height: 100vh;
+}
+
+.navIndex {
+  z-index: 3;
+  width: 100%;
 }
 
 .card {
   width: 18rem;
+}
+
+.vid {
+  justify-content: center;
 }
 
 .main h1 {
@@ -32,7 +40,12 @@
 }
 
 .landingText {
-  padding-top: 0%;
+  padding-top: 50px;
+  z-index: 1;
+}
+
+.smallLanding {
+  padding-top: 2px;
   z-index: 1;
 }
 

@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import bitcoin from '../public/bitcoin1.jpg'
-import blockchain from '../public/blockchain.jpg'
+import NavBar from '../components/nav.js'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +17,11 @@ export default function Home() {
       </Head>
       
       <main className={styles.main}>
+        <NavBar></NavBar>
         <h1 className={styles.landingText}>
-          CISC 322 - Group 39
+          CISC 322 - YASH
         </h1>
-        <h2 className={styles.landingText}>Mercy Doan, Sam Lownie, Shauna Tuinstra, Cain Susko, Alice Slabosz, Yash Patel</h2>
+        <h2 className={styles.smallLanding}>Mercy Doan, Sam Lownie, Shauna Tuinstra, Cain Susko, Alice Slabosz, Yash Patel</h2>
         <div>
           <Image
             src={bitcoin}
@@ -29,13 +30,7 @@ export default function Home() {
             className={styles.landingImage}
             />
         </div>
-        <div className="card">
-          <div className="card-body">
-            <h5 className="card-title">Deliverable</h5>
-            <p className="card-text">Deliverable details, introduction, etc.</p>
-            <a href="#" className="btn btn-primary">View</a>
-          </div>
-        </div>
+        
       </main>
     </>
   )
