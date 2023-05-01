@@ -28,6 +28,12 @@ export default function NavBar() {
                 <li className="nav-item">
                     <a className="nav-link" href="A2pres">A2.Presentation</a>
                 </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="A3Report">A3.Report</a>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="A3pres">A3.Presentation</a>
+                </li>
                 </ul>
             </div>
         </nav>
